@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.navbar {
+    background-color: #010a0d !important;
+    box-shadow: 0 4px 3px -2px rgba(150, 148, 148, 0.437) !important;
+}
+.nav-item {
+    margin-left: 1rem;
+}
+.nav-item>a {
+    color: white;
+}
+.nav-item>a:hover  {
+    color: #ef476f !important;
+    text-decoration: underline;
+}
+.nav-item>a[href="#"] {
+    text-decoration: underline !important;
+    color:  #ef476f !important;
+    font-weight: bold;
+}
+.slide {
+    width: 100%;
+    margin-top: 7.5vh;
+    min-height: 30vh;
+    background-color: #FFD166;
+    background-image: url(/assets/img/slide-background.gif);
+    background-size: contain;
+    box-shadow: 0 4px 3px -2px rgba(0, 0, 0, 0.204) !important;
+
+}
+.slide h1 {
+    color: #073B4C;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.404), 0 0 1em rgba(255, 255, 255, 0.404), 0 0 0.2em rgba(255, 255, 255, 0.404);
+    text-transform: uppercase;
+    letter-spacing: 1rem !important;
+    text-align: center;
+    font-family: 'Lexend Giga';
+    font-size: 1rem;
+}
+
+.slide a {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+.slide a:hover {
+    color: #ef476f;
+}
+.form-check {
+    margin: .5rem .5rem .5rem .5rem;
+}
+form label {
+    font-size: .8rem !important;
+}
+footer {
+    background-color: #ece9e2 !important;
+    min-height: 7.4vh;
+    margin-bottom: 0;
+    width: 100%;
+    box-shadow: 0 -3px 10px 3px rgba(0, 0, 0, 0.2);
+}
+main {
+    width: 100%;
+    min-height: 90vh;
+}
+header {
+    width: 100%;
+}
+
+footer a>img {
+    width: 1.5rem;
+}
+footer>span {
+    color: #010a0d;
+    text-transform: uppercase;
+    text-align: right !important;
+}
+.card {
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+    border: white;
+}
+.card:hover {
+    box-shadow: greenyellow 0px 5px 15px 0px !important;
+}
+#details:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+}
+#details{ 
+    border: #ece9e2 solid 6px ;
+    border-radius: 12px;
+    background-color: #ece9e2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+}
+.card a {
+    background-color: #ef476f;
+    border: #ef476f;
+    text-align: center;
+    max-height: 2.5rem;
+}
+.arreglito {
+    min-height: 92.5vh;
+}
+.details {
+    margin-top: 5rem !important;
+    margin-bottom: 2rem;
+    width: 40rem;
+    height: fit-content
+}
+.detailsRoto {
+    padding: 2px !important;
+}
+.card h6 {
+    font-weight: bold;
+}
+.card a:hover {
+    background-color: #073B4C !important;
+    border: #073B4C;
+}
+.card-title {
+    font-family: 'Lexend Giga';
+    text-transform: uppercase;
+}
+.navbar-toggler, .navbar-toggler-icon {
+    background-color: #ef476f;
+}
+.card>img {
+    min-height: 50% !important;
+}
+.iconos {
+    margin: 3px;
+}
+.contact {
+    max-width: 40rem !important;
+    height: fit-content;
+    margin: 3rem !important;
+}
+.submit {
+    background-color: #073B4C;
+    border: #073B4C;
+}
+.submit:hover {
+    background-color: #ef476f !important;
+    border: #ef476f;
+}
+.tableTitle {
+    font-size: 1.5rem;
+    color: #073B4C;
+    background-color: #ef476f !important;
+    margin-bottom: 0;
+    padding: .3rem;
+}
+th {
+    color: #073B4C;
+    font-size: 1rem !important;
+    padding: 0 !important;
+}
+#titlesCards>h6 {
+    color: #073B4C;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+#tableEvents {
+    margin: 2rem;
+}
